@@ -1,0 +1,23 @@
+@charset"utf-8";
+
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,
+blockquote,pre,abbr,address,cite,code,del,dfn,em,img,
+ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,
+fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,
+article,aside,canvas,details,figcaption,figure,footer,header,hgroup,
+menu,nav,section,summary,time,mark,audio,video{margin:0; padding:0;}
+/*모든 블록요소들에 대한 마진과 패딩의 초기값*/
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+/*모든 인라인요소들에 대한 블록값화*/
+
+li { list-style-type:none; }
+img,fieldset,iframe{border:0;}
+img,fieldset { border:none; }
+img{ max-width:100%; }/*ipad사이즈에서 userlogin 의 title등 %로 된  것을 위해*/
+li img, dd img { vertical-align:top; }/*검색창과 검색버튼을 맞추기 위해서 설정*/
+input { vertical-align:middle; }/*검색창과 검색버튼을 맞추기 위해서 설정*/
+hr{display:none;}/*display:none;=문서 구조에서 제외시킴 브라우저에서 해석을 못함*/
+
+#skip, .skip { font-size:0; width:0; height:0; line-height:0; position:absolute; left:-9999px; }/*left:-9999px;=문서 구조에서 살아있음 브라우저에서 해석함 그러나 화면상에서 보이지 않음*/
+/*문서 초기화와 관련된 것 / 모든 브라우저의 디폴트값이 달라 초기화하지 않으면 레이아웃이 변경될 수 있다*/

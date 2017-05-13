@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* CSS Document */
+
+#visual{
+	position: relative;
+	width: 990px;
+	height: 398px;
+	top: -20px;
+	overflow: hidden;
+	margin: 0 auto;
+	z-index: 40px;
+	}
+
+#visual ul li{
+	position: absolute;
+	float: left;
+	width: 200px;
+	height: 398px;
+	}
+#spring{
+	z-index: 20;
+	}	
+#summer{
+	left: 198px;
+	z-index: 19;
+	}
+#night{
+	 left: 394px;
+	 z-index: 18;
+	}
+#autumn{
+	width: 200px;
+	height: 388px;
+	left: 591px;
+	z-index: 17;
+	}
+#winter{
+	width: 200px;
+	height: 398px;
+	left: 788px;
+	z-index: 16;
+	}
+#visual img{
+	width: 200px;
+	height: 388px;
+	}
+
+#content{
+	position: relative;
+	width: 991px;
+	height: 255px;
+	top: -20px;
+	margin: 0 auto;
+	}
+#con_bg{
+	width: 100%;
+	}
+#content ul li{
+	position: relative;
+	float: left;
+	top: -165px;
+	width: 24.9%;
+	height: 70px;
+	margin-right: 1px;
+	}
+#content ul li a{
+	font-size: 22px;
+	}
+#con_01{
+	position: relative;
+	margin-left: 73px;
+	top: 5px;
+	}
+#con_02{
+	position: relative;
+	margin-left: 39px;
+	top: 20px;
+	}
+#con_03{
+	position: relative;
+	margin-left: 36px;
+	top: 20px;
+	}
+#con_04{
+	position: relative;
+	margin-left: 33px;
+	top: 5px;
+	}
+#content:after{
+	content:"";
+	clear: both;
+	display: block;
+	}
+	
+footer{
+	position: relative;
+	width: 100%;
+	height: 112px;
+	top: -15px;
+	background: #440707;
+	}
+#realfooter{
+	position: relative;
+	width: 990px;
+	height: 90px;
+	margin: 0 auto;
+	}
+#ft_logo{
+	position: absolute;
+	left: 15px;
+	top: 5px;
+	}
+#realfooter>p{
+	position: relative;
+	float: left;
+	left: 150px;
+	top: -37px;
+	font-size: 0.85em;
+	color: #eac3c3;
+	}
+#footer:after{	
+	content: "";
+	display: block;
+	clear: both;
+	}
+
+	

@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+
+a{
+	text-decoration: none;
+	}
+	
+@font-face{
+	font-family: 'MokkakB';
+	src: url(../font/HY%EB%AA%A9%EA%B0%81%ED%8C%8C%EC%9E%84B.woff) format('woff');
+	}
