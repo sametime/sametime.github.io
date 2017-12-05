@@ -1,0 +1,106 @@
+/* Add here all your css styles (customizations) */
+/* Gallery */
+* {
+    border-radius: 0;
+}
+.margin-bottom-60{
+    margin-bottom: 60px;
+}
+.margin-bottom-5, .margin-bottom-10, .margin-bottom-15, .margin-bottom-20, .margin-bottom-25, .margin-bottom-30,
+.margin-bottom-35, .margin-bottom-40, .margin-bottom-45, .margin-bottom-50, .margin-bottom-55, .margin-bottom-60, .margin-bottom-100{
+    clear: both;
+}
+.cube-portfolio:after{
+    clear: both;
+}
+.cube-portfolio:before, .cube-portfolio:after{
+    content: " ";
+    display: table;
+}
+
+.cbp{
+    position: relative;
+    margin: 0 auto;
+    z-index: 1;
+}
+.cbp, .cbp *, .cbp *:after, .cbp:after, .cbp-l-filters-alignCenter .cbp-filter-counter:after, .cbp-l-filters-alignRight
+.cbp-filter-counter:after, .cbp-l-filters-button .cbp-filter-counter:after, .cbp-l-filters-buttonCenter .cbp-filter-counter:after,
+.cbp-l-filters-text .cbp-filter-counter:after, .cbp-l-filters-alignCenter, .cbp-l-filters-alignCenter *, .cbp-l-filters-alignLeft,
+.cbp-l-filters-alignLeft *, .cbp-l-filters-alignRight, .cbp-l-filters-alignRight *, .cbp-l-filters-button, .cbp-l-filters-button *,
+.cbp-l-filters-buttonCenter, .cbp-l-filters-buttonCenter *, .cbp-l-filters-dropdown, .cbp-l-filters-dropdown *,
+.cbp-l-filters-dropdownHeader:after, .cbp-l-filters-list, .cbp-l-filters-list *, .cbp-l-filters-work, .cbp-l-filters-work *,
+.cbp-l-filters-big, .cbp-l-filters-big *, .cbp-l-filters-text, .cbp-l-filters-text *, .cbp-l-filters-underline, .cbp-l-filters-underline *,
+.cbp-popup-wrap, .cbp-popup-wrap *, .cbp-popup-wrap:before, .cbp-popup-loadingBox:after, .cbp-l-loadMore-bgbutton, .cbp-l-loadMore-bgbutton *,
+.cbp-l-loadMore-button, .cbp-l-loadMore-button *, .cbp-l-loadMore-text, .cbp-l-loadMore-text *, .cbp-search, .cbp-search * {
+    box-sizing: border-box;
+}
+.cbp-ready:after {
+    display: none;
+    visibility: hidden;
+}
+.cbp-ready>*{
+    visibility: visible;
+}
+.cbp:after, .cbp-lazyload:after, .cbp-popup-loadingBox:after, .cbp-popup-singlePageInline:after{
+    content: '';
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    animation: cbp-rotation .8s infinite linear;
+    border-left: 3px solid rgba(114,144,182,0.15);
+    border-right: 3px solid rgba(114,144,182,0.15);
+    border-bottom: 3px solid rgba(114,144,182,0.15);
+    border-top: 3px solid rgba(114,144,182,0.8);
+    border-radius: 100%;
+}
+.cbp-wrapper-outer, .cbp-wrapper, .cbp-wrapper-helper{
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.cbp-wrapper-outer{
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+}
+
+/* pricing */
+.pricing-txt{
+    color: #7b6252 !important;
+}
+
+/* contents */
+
+/*.contacts-section{
+    background: #d5c5bb;
+}*/
+.contact-bg{
+    position: relative;
+    width: 100%;
+    background: #d5c5bb;
+}
+
+/* map */
+.coming-bg{
+    position: relative;
+    background-color: #b8a497;
+}
+.coming-map{
+    overflow: hidden;
+    width: 50%;
+    height:100%;
+    background-color: #666;
+}
+.coming-p{
+    width: 50%;
+    padding: 70px 40px;
+    background-color: #f4e1d7;
+}
+
